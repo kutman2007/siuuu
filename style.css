@@ -1,0 +1,41 @@
+@media  screen and(max-width:767px){} 
+
+
+body{
+    background-color: black;
+}
+marquee{
+    border-radius: 50%;
+    margin-top: 250px;
+}
+img{
+    width: 300px;
+    height: 300px;
+    border: 1px solid black;
+    border-radius: 20%;
+}
+h1{
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.hard{
+    position: absolute;
+    left: 630px;
+    margin-top: 50px;
+    background-color: rgb(51, 50, 50);
+    border: 2px solid rgb(54, 52, 52);
+    border-radius: 5%;
+    animation-name: tac;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+@keyframes tac {
+    0% ,100%{
+        box-shadow: 0px 0px 32x -12px rgb(197, 194, 197);
+    }
+    50%{
+        box-shadow: 0px 0px 32px 3px rgb(197, 194, 197);
+    }  
+}
+
+
